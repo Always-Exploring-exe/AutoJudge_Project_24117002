@@ -95,9 +95,9 @@ The model was evaluated on a 20% held-out test set using the best model saved ba
 
 | Metric | Score |
 |:---|:---|
-| **Classification Accuracy** | **[INSERT FINAL ACCURACY]%** |
-| **Regression MAE (Mean Absolute Error)** | **[INSERT FINAL MAE]** |
-| **Regression RMSE (Root Mean Squared Error)** | **[INSERT FINAL RMSE]** |
+| **Classification Accuracy** | **57.11%** |
+| **Regression MAE (Mean Absolute Error)** | **1.63** |
+| **Regression RMSE (Root Mean Squared Error)** | **1.57** |
 
 *(Metrics are calculated on the final evaluation run on the test split after training completion)*
 
@@ -270,4 +270,5 @@ See `LICENSE` file for details.
 - All weights are saved in a single `.pth` file: `./model_weights/autojudge_best_acc_model.pth`
 - The model uses LoRA for efficient fine-tuning, reducing memory requirements
 - For best results, ensure input text follows the same format as training data
+
 
