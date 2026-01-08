@@ -180,14 +180,11 @@ AutoJudge_Project_24117002/
 │   │   ├── __init__.py
 │   │   └── model.py             # Model architecture definition
 │   └── web/
-│       └── streamlit_app.py     # Streamlit web interface
-├── notebooks/                    # Jupyter notebooks
-│   ├── Train_and_run_regressor_and_classifier.ipynb  # Main training notebook
-│   └── dataset.ipynb            # Dataset exploration notebook
+│       └── streamlit_app.py     # Streamlit web interface                   # Jupyter notebooks
+├── regressor_and__classifier_train_and_run.ipynb  # Main training notebook
+└── preprocess_extract_dataset.ipynb            # Dataset exploration notebook
 ├── data/                         # Data directory
 │   └── problems_data.jsonl      # Dataset (auto-downloaded)
-├── model_weights/                       # Model weights
-│   └── autojudge_best_acc_model.pth  # Trained model checkpoint
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
 ```
@@ -273,3 +270,4 @@ See `LICENSE` file for details.
 - All weights are saved in a single `.pth` file: `./model_weights/autojudge_best_acc_model.pth`
 - The model uses LoRA for efficient fine-tuning, reducing memory requirements
 - For best results, ensure input text follows the same format as training data
+
