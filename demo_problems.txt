@@ -1,0 +1,48 @@
+# Sample Problems for Demo Video
+
+## Problem 1: Easy (Two Sum)
+Title: Two Sum
+Description: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+Input Constraints: 2 <= nums.length <= 10^4, -10^9 <= nums[i] <= 10^9, -10^9 <= target <= 10^9
+Output Format: Return the indices of the two numbers that sum to target
+
+---
+
+## Problem 2: Medium (Longest Substring Without Repeating Characters)
+Title: Longest Substring Without Repeating Characters
+Description: Given a string s, find the length of the longest substring without repeating characters.
+Input Constraints: 0 <= s.length <= 5 * 10^4, s consists of English letters, digits, symbols and spaces.
+Output Format: Return an integer representing the length of the longest substring
+
+---
+
+## Problem 3: Hard (Median of Two Sorted Arrays)
+Title: Median of Two Sorted Arrays
+Description: Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+Input Constraints: nums1.length == m, nums2.length == n, 0 <= m <= 1000, 0 <= n <= 1000, 1 <= m + n <= 2000, -10^6 <= nums1[i], nums2[i] <= 10^6
+Output Format: Return the median as a double precision floating point number
+
+---
+
+## Problem 4: Easy (Valid Parentheses)
+Title: Valid Parentheses
+Description: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type.
+Input Constraints: 1 <= s.length <= 10^4, s consists of parentheses only '()[]{}'
+Output Format: Return true if the string is valid, false otherwise
+
+---
+
+## Problem 5: Medium (Container With Most Water)
+Title: Container With Most Water
+Description: You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]). Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water a container can store.
+Input Constraints: n == height.length, 2 <= n <= 10^5, 0 <= height[i] <= 10^4
+Output Format: Return the maximum area of water that can be contained
+
+---
+
+## Problem 6: Hard (Trapping Rain Water)
+Title: Trapping Rain Water
+Description: Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+Input Constraints: n == height.length, 1 <= n <= 2 * 10^4, 0 <= height[i] <= 10^5
+Output Format: Return the total amount of water that can be trapped
+
